@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { getBotById } from '@/data/bots'
+import { getBotById } from '@/features/bots/data'
 import { useState } from 'react'
 import { useParams } from 'next/navigation'
 

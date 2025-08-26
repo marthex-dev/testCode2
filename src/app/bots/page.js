@@ -3,7 +3,7 @@
 import BotCard from '@/components/BotCard'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
-import { bots } from '@/data/bots'
+import { bots } from '@/features/bots/data'
 
 export default function BotsPage() {
   const [botCount, setBotCount] = useState(12)
